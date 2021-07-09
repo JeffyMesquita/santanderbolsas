@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hello from "../src/components/Hello";
+import App5 from "../src/components/App5";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Hello text="Hello">
-      <h1>Hello</h1>
-    </Hello>
+    <App5 />
   </React.StrictMode>,
   document.getElementById("root")
 );
